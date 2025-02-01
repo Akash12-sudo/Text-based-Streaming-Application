@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Smooth code block scrolling */
+.react-syntax-highlighter {
+    font-family: 'Fira Code', monospace !important;
+    line-height: 1.5 !important;
+    border-radius: 8px !important;
+  }
+  
+/* Message container constraints */
+.prose {
+max-width: 100% !important;
+white-space: pre-wrap;
+}
+
+/* Smooth scroll for chat messages */
+.chat-container {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  .chat-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .chat-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }

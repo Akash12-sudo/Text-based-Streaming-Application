@@ -175,7 +175,7 @@ export default function App() {
                     remarkPlugins={[remarkGfm]}
                     className="prose text-inherit break-words"
                     components={{
-                      p: ({node, ...props}) => <p className="mb-2" {...props} />
+                      p: ({ ...props}) => <p className="mb-2" {...props} />
                     }}
                   >
                     {msg.content.replace(/```/g, '')}
